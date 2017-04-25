@@ -16,11 +16,11 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 本地数据源规则处理
+ * 本地数据源查询
  * Created by zhuguowei on 4/25/17.
  */
 @Service
-public class LocalDataRuleService {
+public class LocalDataQueryService {
 
     @Resource(name = "ruleDaoProperties")
     private Map<String, String> rule2DaoMap;

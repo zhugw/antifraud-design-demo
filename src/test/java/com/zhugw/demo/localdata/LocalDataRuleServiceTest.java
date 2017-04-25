@@ -1,6 +1,6 @@
 package com.zhugw.demo.localdata;
 
-import com.zhugw.demo.localdata.service.LocalDataRuleService;
+import com.zhugw.demo.localdata.service.LocalDataQueryService;
 import com.zhugw.demo.template.model.ApplyInfo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,7 +20,7 @@ import static org.junit.Assert.assertEquals;
 @RunWith(SpringJUnit4ClassRunner.class)
 public class LocalDataRuleServiceTest {
     @Autowired
-    private LocalDataRuleService localDataRuleService;
+    private LocalDataQueryService localDataRuleService;
     @Test
     public void batchQueryLocalData() throws Exception {
         ApplyInfo applyInfo = new ApplyInfo();
